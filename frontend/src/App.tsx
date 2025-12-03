@@ -1,10 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, useEffect } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import axios from "axios";
+import type { User } from "./../../backend/server";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+  const [users, setUsers] = useState<User[]>([]);
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:4000/api/users")
+      .then((res) => setUsers(res.data))
+      .catch((err) => console.error(err));
+  }, []);
 
   return (
     <>
@@ -25,11 +35,17 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
+      <h1>Users</h1>
+      <ul>
+        {users.map((u) => (
+          <li key={u.id}>{u.name}</li>
+        ))}
+      </ul>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
