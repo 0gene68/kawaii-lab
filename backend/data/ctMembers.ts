@@ -8,6 +8,7 @@ export let ctMembers: Member[] = [
     birthDate: new Date(1999, 12, 3),
     color: "e9649e",
     origin: "후쿠오카",
+    photo: "MurakawaBibian",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export let ctMembers: Member[] = [
     birthDate: new Date(2003, 2, 21),
     color: "1f80c4",
     origin: "이바라키",
+    photo: "KiriharaMizuki",
   },
   {
     id: 3,
@@ -24,6 +26,7 @@ export let ctMembers: Member[] = [
     birthDate: new Date(1997, 12, 24),
     color: "13baee",
     origin: "도쿄",
+    photo: "FukuyamaRino",
   },
   {
     id: 4,
@@ -32,6 +35,7 @@ export let ctMembers: Member[] = [
     birthDate: new Date(1999, 10, 1),
     color: "7ac49f",
     origin: "홋카이도",
+    photo: "OgawaNanako",
   },
   {
     id: 5,
@@ -40,6 +44,7 @@ export let ctMembers: Member[] = [
     birthDate: new Date(2001, 3, 17),
     color: "f08e3d",
     origin: "도쿄",
+    photo: "MinamiNatsu",
   },
   {
     id: 6,
@@ -48,6 +53,7 @@ export let ctMembers: Member[] = [
     birthDate: new Date(2002, 5, 30),
     color: "ac61a2",
     origin: "카나가와",
+    photo: "MiyanoShizuka",
   },
   {
     id: 7,
@@ -56,5 +62,6 @@ export let ctMembers: Member[] = [
     birthDate: new Date(2002, 5, 25),
     color: "cd001f",
     origin: "후쿠오카",
+    photo: "TachibanaKotomi",
   },
 ];
