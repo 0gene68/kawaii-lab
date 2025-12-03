@@ -22,9 +22,9 @@
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
+/* .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
+} */
 
 .logo-container {
   display: inline-block;
@@ -55,4 +55,5 @@
 .logo-container:hover .tooltip-text {
   visibility: visible;
   opacity: 1;
+  color: #535bf2;
 }
