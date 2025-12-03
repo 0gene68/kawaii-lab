@@ -4,7 +4,7 @@ export let csMembers: Member[] = [
   {
     id: 1,
     nameK: "후루사와 리사",
-    nameJ: "古澤里沙",
+    nameJ: "古澤 里沙",
     birthDate: new Date(2000, 11, 8),
     color: "fed023",
     origin: "구마모토",
@@ -13,7 +13,7 @@ export let csMembers: Member[] = [
   {
     id: 2,
     nameK: "사노 아이카",
-    nameJ: "佐野愛花",
+    nameJ: "佐野 愛花",
     birthDate: new Date(2000, 11, 26),
     color: "e8333e",
     origin: "도쿄",
@@ -22,7 +22,7 @@ export let csMembers: Member[] = [
   {
     id: 3,
     nameK: "이타쿠라 카나",
-    nameJ: "板倉可奈",
+    nameJ: "板倉 可奈",
     birthDate: new Date(2001, 11, 11),
     color: "a4d5b7",
     origin: "치바",
@@ -31,7 +31,7 @@ export let csMembers: Member[] = [
   {
     id: 4,
     nameK: "마스다 아야노",
-    nameJ: "増田彩乃",
+    nameJ: "増田 彩乃",
     birthDate: new Date(2003, 5, 26),
     color: "006bb7",
     origin: "아이치",
@@ -40,7 +40,7 @@ export let csMembers: Member[] = [
   {
     id: 5,
     nameK: "카와모토 에미루",
-    nameJ: "川本笑瑠",
+    nameJ: "川本 笑瑠",
     birthDate: new Date(2002, 4, 22),
     color: "f28e1e",
     origin: "카나가와",
@@ -49,7 +49,7 @@ export let csMembers: Member[] = [
   {
     id: 6,
     nameK: "우메다 미유",
-    nameJ: "梅田みゆ",
+    nameJ: "梅田 みゆ",
     birthDate: new Date(2004, 9, 13),
     color: "68c9f4",
     origin: "구마모토",
@@ -58,7 +58,7 @@ export let csMembers: Member[] = [
   {
     id: 7,
     nameK: "마나베 나기사",
-    nameJ: "真鍋凪咲",
+    nameJ: "真鍋 凪咲",
     birthDate: new Date(2004, 6, 28),
     color: "b194c4",
     origin: "카나가와",
@@ -67,7 +67,7 @@ export let csMembers: Member[] = [
   {
     id: 8,
     nameK: "사쿠라바 하루카",
-    nameJ: "桜庭遥花",
+    nameJ: "桜庭 遥花",
     birthDate: new Date(2006, 1, 29),
     color: "f29ec2",
     origin: "홋카이도",
