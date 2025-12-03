@@ -1,0 +1,60 @@
+import type { Member } from "./../src/types/Member";
+
+export let ctMembers: Member[] = [
+  {
+    id: 1,
+    nameK: "무라카와 비비안",
+    nameJ: "村川 緋杏",
+    birthDate: new Date(1999, 12, 3),
+    color: "e9649e",
+    origin: "후쿠오카",
+  },
+  {
+    id: 2,
+    nameK: "키리하라 미즈키",
+    nameJ: "桐原 美月",
+    birthDate: new Date(2003, 2, 21),
+    color: "1f80c4",
+    origin: "이바라키",
+  },
+  {
+    id: 3,
+    nameK: "후쿠야마 리노",
+    nameJ: "福山 梨乃",
+    birthDate: new Date(1997, 12, 24),
+    color: "13baee",
+    origin: "도쿄",
+  },
+  {
+    id: 4,
+    nameK: "오가와 나나코",
+    nameJ: "小川 奈々子",
+    birthDate: new Date(1999, 10, 1),
+    color: "7ac49f",
+    origin: "홋카이도",
+  },
+  {
+    id: 5,
+    nameK: "미나미 나츠",
+    nameJ: "南 なつ",
+    birthDate: new Date(2001, 3, 17),
+    color: "f08e3d",
+    origin: "도쿄",
+  },
+  {
+    id: 6,
+    nameK: "미야노 시즈카",
+    nameJ: "宮野 静",
+    birthDate: new Date(2002, 5, 30),
+    color: "ac61a2",
+    origin: "카나가와",
+  },
+  {
+    id: 7,
+    nameK: "타치바나 코토미",
+    nameJ: "立花 琴未",
+    birthDate: new Date(2002, 5, 25),
+    color: "cd001f",
+    origin: "후쿠오카",
+  },
+];
