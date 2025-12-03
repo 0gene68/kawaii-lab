@@ -7,7 +7,7 @@
 
 #klLogo {
   width: 25em;
-  margin: 2em;
+  margin: 5em;
 }
 
 .logo {
@@ -26,25 +26,33 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-container {
+  display: inline-block;
+  position: relative;
+  margin: 1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.tooltip-text {
+  visibility: hidden;
+  width: max-content;
+  text-align: center;
+  padding: 0.3em 0.5em;
+  font-size: x-large;
+  font-weight: bolder;
+
+  /* 위치 */
+  position: absolute;
+  top: 100%; /* 이미지 바로 아래 */
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.5em;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none; /* 마우스 이벤트 무시 */
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.logo-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
 }
