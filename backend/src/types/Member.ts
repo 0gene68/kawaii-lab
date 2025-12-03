@@ -5,4 +5,5 @@ export interface Member {
   birthDate: Date;
   color: string;
   origin: string;
+  photo: string;
 }
