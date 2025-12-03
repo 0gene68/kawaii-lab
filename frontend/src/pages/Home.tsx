@@ -11,10 +11,10 @@ function Home() {
     <>
       <img src={klLogo} id="klLogo" alt="Kawaii Lab Logo" />
       <div>
-        <LogoCard img={fzLogo} text={"FRUITS ZIPPER"} />
-        <LogoCard img={ctLogo} text={"CANDY TUNE"} />
-        <LogoCard img={ssLogo} text={"SWEET STEADY"} />
-        <LogoCard img={csLogo} text={"CUTIE STREET"} />
+        <LogoCard img={fzLogo} text={"FRUITS ZIPPER"} url={"/FruitsZipper"} />
+        <LogoCard img={ctLogo} text={"CANDY TUNE"} url={"/CandyTune"} />
+        <LogoCard img={ssLogo} text={"SWEET STEADY"} url={"/SweetSteady"} />
+        <LogoCard img={csLogo} text={"CUTIE STREET"} url={"/CutieStreet"} />
       </div>
     </>
   );
