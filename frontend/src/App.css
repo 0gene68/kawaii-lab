@@ -5,11 +5,19 @@
   text-align: center;
 }
 
+#klLogo {
+  width: 25em;
+  margin: 2em;
+}
+
 .logo {
+  width: 6em;
   height: 6em;
-  padding: 1.5em;
+  padding: 3em;
+  margin: 1em;
   will-change: filter;
   transition: filter 300ms;
+  background-color: beige;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
