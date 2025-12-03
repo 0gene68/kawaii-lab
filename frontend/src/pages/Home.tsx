@@ -1,8 +1,8 @@
-import klLogo from "../assets/img/klLogo.svg";
-import fzLogo from "../assets/img/fzLogo.svg";
-import ctLogo from "../assets/img/ctLogo.svg";
-import ssLogo from "../assets/img/ssLogo.svg";
-import csLogo from "../assets/img/csLogo.svg";
+import klLogo from "../assets/img/Logos/klLogo.svg";
+import fzLogo from "../assets/img/Logos/fzLogo.svg";
+import ctLogo from "../assets/img/Logos/ctLogo.svg";
+import ssLogo from "../assets/img/Logos/ssLogo.svg";
+import csLogo from "../assets/img/Logos/csLogo.svg";
 import LogoCard from "../components/LogoCard";
 import "../css/Home.css";
 
