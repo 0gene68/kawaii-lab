@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <img src={klLogo} id="klLogo" alt="Kawaii Lab Logo" />
-      <div>
+      <div id="logo-card-container">
         <LogoCard img={fzLogo} text={"FRUITS ZIPPER"} url={"/FruitsZipper"} />
         <LogoCard img={ctLogo} text={"CANDY TUNE"} url={"/CandyTune"} />
         <LogoCard img={ssLogo} text={"SWEET STEADY"} url={"/SweetSteady"} />
